@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql:///0708jpa
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  thymeleaf:
+    cache: false
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
